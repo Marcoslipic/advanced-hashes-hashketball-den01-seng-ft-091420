@@ -184,6 +184,11 @@ def player_numbers (team_name_input)
   return new_arr_player_numbers
 end
 
-
+def player_stats (player_name)
+  player_stats_hash = {}
+  game_hash.each do |home_or_away, team_data|
+    
+  end 
+end 
 
 
