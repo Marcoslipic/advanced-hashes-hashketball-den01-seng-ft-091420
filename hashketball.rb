@@ -135,6 +135,7 @@ def num_points_scored (player_name)
   game_hash.each do |key, value|
     if value == player_name
       return game_hash[:players][player_name]
+    end 
   end 
 end 
 
