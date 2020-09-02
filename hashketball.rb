@@ -190,6 +190,8 @@ def player_stats (player_name_search)
     team_data[:players].each do |player|
       if player[:player_name] == player_name_search
         player_stats_hash = {:player_name}
+      end 
+    end 
   end 
   player_stats_hash
 end 
