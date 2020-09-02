@@ -162,14 +162,7 @@ def team_colors (team_name_search)
 end
 
 def team_names 
-  arr_team_names = []
-  
-  game_hash.each do |home_or_away, team_data|
-    if team_data == [:team_name]
-      arr_team_names.push[:team_name]
-    end
-  end
-  arr_team_names
+  game_hash.map |
 end 
 
 
