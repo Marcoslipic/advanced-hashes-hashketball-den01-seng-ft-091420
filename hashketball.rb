@@ -162,7 +162,7 @@ def team_colors (team_name_search)
 end
 
 def team_names 
-  game_hash.map |home_or_away, team_data|
+  game_hash.map do |home_or_away, team_data|
   team_data{:team_name]
 end 
 end 
