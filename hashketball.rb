@@ -167,11 +167,10 @@ def team_names
 end 
 end 
 
-def player_numbers (team_name)
+def player_numbers (team_name_input)
   game_hash.each do |home_or_away, team_data|
-    team_data[:players].map do |num|
-      number 
-  
+    if team_data[:team_name] == team_name_input
+      
 end
 
 
