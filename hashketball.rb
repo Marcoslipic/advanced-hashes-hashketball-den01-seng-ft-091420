@@ -175,7 +175,7 @@ def player_numbers (team_name_input)
       team_data.each do |team_info, value|
         if team_info == :players 
           value.each do |player|
-            new_arr_player_numbers.push(player[[:number])
+            new_arr_player_numbers.push(player[:number])
           end
         end
       end
