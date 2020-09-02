@@ -190,7 +190,8 @@ def player_stats (player_name_search)
     team_data.each do |key, value|
       if key == :player 
         value.each do |player|
-          if input == player
+          if input == player[:player_name]
+            
       end 
     end 
   end 
