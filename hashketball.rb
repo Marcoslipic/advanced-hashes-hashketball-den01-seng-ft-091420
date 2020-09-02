@@ -181,6 +181,7 @@ def player_numbers (team_name_input)
       end
     end
   end 
+  return new_arr_player_numbers
 end
 
 
