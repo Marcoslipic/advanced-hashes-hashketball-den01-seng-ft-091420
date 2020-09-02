@@ -132,8 +132,8 @@ end
 # Write code here
 
 def num_points_scored (player_name)
-  game_hash.each do |key, value|
-    value.each do |inner_key, inner_value|
+  game_hash.each do |location, team_data|
+    team_data[:players].each do |inner_key, inner_value|
     if inner_value == player_name
       return game_hash[key][value][player_name][:points]
     end 
