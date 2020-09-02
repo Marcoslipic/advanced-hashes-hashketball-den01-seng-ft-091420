@@ -131,10 +131,12 @@ end
 
 # Write code here
 
-def num_points_scored (player_name)
+def num_points_scored (player_name_search)
   game_hash.each do |home_or_away, team_data|
     team_data[:players].each do |player|
-      
+      if player[:player_name] == player_name_search
+      end 
+    end 
   end 
 end 
 
