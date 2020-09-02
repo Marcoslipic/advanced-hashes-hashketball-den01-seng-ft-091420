@@ -163,7 +163,7 @@ end
 
 def team_names 
   game_hash.map |home_or_away, team_data|
-  
+  team_data{:team_name]
 end 
 end 
 
