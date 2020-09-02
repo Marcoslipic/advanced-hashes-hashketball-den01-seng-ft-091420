@@ -153,7 +153,9 @@ def shoe_size (player_name_search)
 end 
 
 
-
+def team_colors (team_name)
+  game_hash.each do |home_or_away, team_name|
+    team_data[:colors]
 
 
 
