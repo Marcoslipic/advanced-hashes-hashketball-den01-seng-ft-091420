@@ -170,7 +170,7 @@ end
 def player_numbers (team_name_input)
   game_hash.each do |home_or_away, team_data|
     if team_data[:team_name] == team_name_input
-      
+      team_name.each do |
 end
 
 
