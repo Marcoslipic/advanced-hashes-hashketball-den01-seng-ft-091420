@@ -189,6 +189,7 @@ def player_stats (player_name)
   game_hash.each do |home_or_away, team_data|
     
   end 
+  player_stats_hash
 end 
 
 
