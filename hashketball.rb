@@ -189,7 +189,7 @@ def player_stats (player_name_search)
   game_hash.each do |home_or_away, team_data|
     team_data.each do |key, value|
       if key == :player 
-        
+        value.each do |
       end 
     end 
   end 
